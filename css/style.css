@@ -1,6 +1,23 @@
 /* YOUR CUSTOM STYLES */
 
 /* Header */
+/* header nav div.breadcrumb-dn{
+    width: 100%;
+}
+header nav ol.breadcrumb{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ol.breadcrumb li{
+    flex-grow: 1;
+    text-align: center;
+} */
+
+/* End Header */
+/* Header */
 header nav div.breadcrumb-dn{
     width: 100%;
 }
