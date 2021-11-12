@@ -1,37 +1,427 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>React App</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet" />
     <!-- Customizer -->
-    <link rel="stylesheet" href="https://mdbootstrap.com/live/_MDB/css/customizer.min.css">
+    <link
+      rel="stylesheet"
+      href="https://mdbootstrap.com/live/_MDB/css/customizer.min.css"
+    />
     <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body class="hidden-sn animated deep-purple-skin">
+  <body class="hidden-sn animated deep-purple-skin">
     <div>
+
         <!-- Header -->
         <header>            
-        	<!-- your code -->
+            <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg navbar-dark scrolling-navbar double-nav">
+                <div class="breadcrumb-dn mr-auto">
+                    <ol class="breadcrumb header-breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a>Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a>Blog</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a>About Us</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a>Our history</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a>Contacts</a>
+                        </li>
+                    </ol>
+                </div>
+
+            </nav>
         </header>
-        <main id="mainContainer">
-            <div class="container">
-                <!-- your code -->
+
+      
+      <main id="mainContainer">
+        <div class="container">
+          <div style="display: flex">
+            <div style="width: 70%">
+              <p>
+                React is a JavaScript library for building user interfaces.
+                Declarative: React makes it painless to create interactive UIs.
+                Design simple views for each state in your application, and
+                React will efficiently update and render just the right
+                components when your data changes. Declarative views make your
+                code more predictable, simpler to understand, and easier to
+                debug. Component-Based: Build encapsulated components that
+                manage their own state, then compose them to make complex UIs.
+                Since component logic is written in JavaScript instead of
+                templates, you can easily pass rich data through your app and
+                keep state out of the DOM. Learn Once, Write Anywhere: We don't
+                make assumptions about the rest of your technology stack, so you
+                can develop new features in React without rewriting existing
+                code. React can also render on the server using Node and power
+                mobile apps using React Native. Learn how to use React in your
+                own project. Installation React has been designed for gradual
+                adoption from the start, and you can use as little or as much
+                React as you need: Use Online Playgrounds to get a taste of
+                React. Add React to a Website as a tag in one minute. Create a
+                New React App if you're looking for a powerful JavaScript
+                toolchain. You can use React as a tag from a CDN, or as a react
+                package on npm. Documentation You can find the React
+                documentation on the website. Check out the Getting Started page
+                for a quick overview. The documentation is divided into several
+                sections: Tutorial Main Concepts Advanced Guides API Reference
+                Where to Get Support Contributing Guide You can improve it by
+                sending pull requests to this repository.
+              </p>
             </div>
-        </main>
-        <!-- Footer -->
-        <footer class="page-footer center-on-small-only">
-            <!-- your code -->
-        </footer>
+            <div style="width: 30%">
+              <ul class="instagram-photos">
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(19).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(16).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(18).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(15).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(17).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer class="page-footer center-on-small-only">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-2 ml-auto">
+              <h5 class="title social-section-title">Social Media</h5>
+              <div class="social-section text-md-left">
+                <ul class="text-center">
+                  <li>
+                    <a class="btn-floating btn-fb waves-effect waves-light">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="btn-floating btn-ins waves-effect waves-light">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="btn-floating btn-tw waves-effect waves-light">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="btn-floating btn-yt waves-effect waves-light">
+                      <i class="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="btn-floating btn-li waves-effect waves-light">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="btn-floating btn-dribbble waves-effect waves-light"
+                    >
+                      <i class="fa fa-dribbble left"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="btn-floating btn-pin waves-effect waves-light">
+                      <i class="fa fa-pinterest"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="btn-floating btn-gplus waves-effect waves-light">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <h5 class="title">Delivery</h5>
+              <ul>
+                <li>
+                  <a>Store Delivery</a>
+                </li>
+                <li>
+                  <a>Online Delivery</a>
+                </li>
+                <li>
+                  <a>Delivery Terms &amp; Conditions</a>
+                </li>
+                <li>
+                  <a>Tracking</a>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-lg-2">
+              <h5 class="title">Need help?</h5>
+              <ul>
+                <li>
+                  <a>FAQ</a>
+                </li>
+                <li>
+                  <a>Contact Us</a>
+                </li>
+                <li>
+                  <a>Return Policy</a>
+                </li>
+                <li>
+                  <a>Product Registration</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h5 class="title">Instagram Photos</h5>
+              <ul class="instagram-photos">
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(19).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(16).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(18).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(15).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="view overlay hm-white-slight z-depth-1">
+                    <img
+                      class="img-fluid"
+                      src="http://mdbootstrap.com/img/Photos/Avatars/img%20(17).jpg"
+                      alt=""
+                    />
+                    <a>
+                      <div
+                        class="mask waves-light waves-effect waves-light"
+                      ></div>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="footer-copyright">
+                <div class="container-fluid">
+                    © 2016 Copyright:
+                    <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+                </div>
+            </div> -->
+      </footer>
     </div>
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -42,11 +432,13 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Customizer -->
-    <script type="text/javascript" src="https://mdbootstrap.com/live/_MDB/js/customizer.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://mdbootstrap.com/live/_MDB/js/customizer.min.js"
+    ></script>
     <!-- Custom -->
     <script type="text/javascript">
-        $(".button-collapse").sideNav();
+      $(".button-collapse").sideNav();
     </script>
-</body>
-
+  </body>
 </html>
